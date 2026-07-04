@@ -391,11 +391,9 @@ FROM Student
 GROUP BY AdmissionYear;
 
 
--- ==========================================
--- PART 5 : SQL JOIN QUERIES
--- ==========================================
+-- SQL JOIN QUERIES
 
--- 36. Display student name with department name
+--  Display student name with department name
 SELECT
     s.StudentID,
     s.StudentName,
@@ -404,9 +402,8 @@ FROM Student s
 INNER JOIN Department d
 ON s.DepartmentID = d.DepartmentID;
 
----------------------------------------------------
 
--- 37. Display teacher name with department name
+-- Display teacher name with department name
 SELECT
     t.TeacherName,
     d.DepartmentName,
@@ -415,9 +412,7 @@ FROM Teacher t
 INNER JOIN Department d
 ON t.DepartmentID = d.DepartmentID;
 
----------------------------------------------------
-
--- 38. Display course with teacher name
+--  Display course with teacher name
 SELECT
     c.CourseCode,
     c.CourseName,
@@ -426,9 +421,8 @@ FROM Course c
 INNER JOIN Teacher t
 ON c.TeacherID = t.TeacherID;
 
----------------------------------------------------
 
--- 39. Display course with department name
+-- Display course with department name
 SELECT
     c.CourseName,
     d.DepartmentName
@@ -436,9 +430,7 @@ FROM Course c
 INNER JOIN Department d
 ON c.DepartmentID = d.DepartmentID;
 
----------------------------------------------------
-
--- 40. Display student enrollment details
+-- Display student enrollment details
 SELECT
     s.StudentName,
     c.CourseName,
@@ -451,9 +443,8 @@ ON e.CourseID = c.CourseID
 INNER JOIN Semester sem
 ON e.SemesterID = sem.SemesterID;
 
----------------------------------------------------
 
--- 41. Display student result
+-- Display student result
 SELECT
     s.StudentName,
     c.CourseName,
@@ -468,9 +459,9 @@ ON e.StudentID = s.StudentID
 INNER JOIN Course c
 ON e.CourseID = c.CourseID;
 
----------------------------------------------------
+-
 
--- 42. Display fee information
+--  Display fee information
 SELECT
     s.StudentName,
     f.TotalFee,
@@ -1176,7 +1167,7 @@ FROM Fee;
 
 ---------------------------------------------------
 
--- 99. Student Academic Report
+-- Student Academic Report
 
 SELECT
     s.StudentName,
@@ -1192,10 +1183,7 @@ FROM Student s
 JOIN Department d
 ON s.DepartmentID = d.DepartmentID
 ORDER BY s.CGPA DESC;
-
----------------------------------------------------
-
--- 100. FINAL COLLEGE MANAGEMENT REPORT
+--FINAL COLLEGE MANAGEMENT REPORT
 
 SELECT
     s.StudentID,
