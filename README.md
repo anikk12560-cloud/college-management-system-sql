@@ -98,4 +98,5 @@ This project demonstrates SQL database design, data manipulation, and data analy
 
 Anik
 
-![This is a image](https://github.com/anikk12560-cloud/college-management-system-sql/blob/4730b8ccffcca5c63f27acd644060d8e0a4d5449/ER_Diagram.png)
+
+![This is a image](https://github.com/anikk12560-cloud/college-management-system-sql/blob/3b6192676340f47971c5a37ae6020aab4ee7b304/ChatGPT%20Image%20Jul%204%2C%202026%2C%2010_24_49%20PM.png)
