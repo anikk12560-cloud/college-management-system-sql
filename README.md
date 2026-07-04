@@ -97,3 +97,5 @@ This project demonstrates SQL database design, data manipulation, and data analy
 ## 👨‍💻 Author
 
 Anik
+
+![This is a image](https://github.com/anikk12560-cloud/college-management-system-sql/blob/4730b8ccffcca5c63f27acd644060d8e0a4d5449/ER_Diagram.png)
