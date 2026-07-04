@@ -92,7 +92,6 @@ This project demonstrates SQL database design, data manipulation, and data analy
 3. Execute the script
 4. Run the analysis queries
 
-![Image](https://github.com/user-attachments/assets/c34bad22-bd29-4498-a164-a733e5960250)
 
 
 ## 👨‍💻 Author
